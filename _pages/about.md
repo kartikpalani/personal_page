@@ -16,8 +16,10 @@ news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fifth year Ph.D. student in Computer Engineering at the University of Illinois at Urbana-Champaign, advised by <a href= "http://dmnicol.web.engr.illinois.edu">Prof. David Nicol</a>. I also work closely with <a href = "https://www.cs.dartmouth.edu/~sws/">Prof. Sean Smith</a> and his students in the Trust Lab at Dartmouth College.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I study computer security through the lens of applied mathematics. I have been looking at ways in which we can discover optimal strategies for network security and how this might help defend our critical infrastructures (like the power grid) better. I believe security should be a measurable property for any network and these measurements should help inform our decision making.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to Illinois, I was a researcher in the Smart Energy Informatics Lab at the Indian Institute of Technology, Bombay. I worked with <a href= "https://sites.google.com/site/ramamrithamkrithi/home/">Prof. Krithi Ramamritham</a> to develop sensing solutions to retrofit buildings in order to make them occupant aware and energy intelligent.
+
+I got my undergraduate degree in Telecommunications Engineering from SRM University, Chennai, India. My senior year, was spent at the Massachusetts Institute of Technology (course 6), where my senior thesis dealt with seamless data transfer over a local peer-to-peer cloud, among mobile devices.
