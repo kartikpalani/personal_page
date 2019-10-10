@@ -2,9 +2,10 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Course and workshop material
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+<ul>
+	<li>ECE/CS 541: Computer Systems Analysis <br>[<a href="https://ece.illinois.edu/academics/courses/profile/ECE541" target="_blank">Description</a>] [<a href="https://courses.engr.illinois.edu/ece541/fa2016/" target="_blank">Fall 2016</a>] [<a href="https://courses.engr.illinois.edu/ece541/fa2018/" target="_blank">Fall 2018</a>] </li>
+</ul>

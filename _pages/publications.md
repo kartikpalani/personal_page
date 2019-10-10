@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: More details can be found on <a href="https://scholar.google.com/citations?user=I2kASBIAAAAJ">google scholar</a>.
+description: More details can be found on <a href="https://scholar.google.com/citations?user=I2kASBIAAAAJ" target="_blank">google scholar</a>.
 years: [2019,2018,2017,2016,2015,2014]
 ---
 <h3 class="year">Preprints</h3>

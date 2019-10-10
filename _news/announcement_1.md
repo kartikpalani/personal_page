@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: June 25, 2019
 inline: true
 ---
 
-A simple inline announcement.
+Grateful to be awarded a $75,000 research award by the <a href="https://www.epri.com/#/?lang=en-US">Electric Power Research Institute</a> for our work on Melody.
