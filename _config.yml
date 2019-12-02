@@ -33,10 +33,10 @@ google_analytics: UA-67552431-2 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: thoughts
-blog_description: a simple whitespace theme for academics
+blog_description: work that is not "researchy" enough to go into a paper but still needs to be done 
 
 # Pagination
-paginate: 4
+paginate: 5
 permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
