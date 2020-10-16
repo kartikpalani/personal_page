@@ -100,3 +100,62 @@
   year={2018},
   publisher={SAGE Publications Sage CA: Los Angeles, CA}
 }
+
+
+
+@article{10.1145/3397776.3397778,
+author = {Palani, Kartik and Nicol, David M.},
+title = {Optimal Monitoring Strategies for Critical Infrastructure Networks},
+year = {2020},
+issue_date = {March 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {47},
+number = {4},
+issn = {0163-5999},
+url = {https://doi.org/10.1145/3397776.3397778},
+doi = {10.1145/3397776.3397778},
+abstract = {Given a choice among multiple security monitoring solutions and multiple locations to deploy them,what strategy best protects the network? What metric is used to compare different securing strategies? What constraints make it harder/easier to secure critical infrastructure networks? This paper explores these questions and formalizes the network monitoring strategy problem for critical infrastructure networks. It also presents a deterministic polynomial time algorithm for discovering a near-optimal network monitoring strategy.},
+journal = {SIGMETRICS Perform. Eval. Rev.},
+month = apr,
+pages = {4–7},
+numpages = {4},
+pdf={cins2019.pdf},
+abbr={Sigmetrics}
+}
+
+@inproceedings{10.1145/3365871.3365883,
+author = {Anantharaman, Prashant and Palani, Kartik and Smith, Sean},
+title = {Scalable Identity and Key Management for Publish-Subscribe Protocols in the Internet-of-Things},
+year = {2019},
+isbn = {9781450372077},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3365871.3365883},
+doi = {10.1145/3365871.3365883},
+abstract = {Publish-Subscribe protocols such as the Message Queuing Telemetry Transport (MQTT) protocol are considered scalable, lightweight, and one-size-fits-all solutions for the Internet-of-Things (IoT) networking. MQTT has been widely adopted in the Industrial IoT to automate distributed power grid equipment such as smart meters and sensors. Such protocols are being adopted rapidly, without much attention being paid to security. Although these protocols support client-side TLS certificates, operators of ten do not enable these features, fearing performance and availability issues. Moreover, managing these certificates would be yet another challenging problem.We present MaQaTooT, a key-management and communication scheme based on Macaroons for the IoT and Smart Grid applications. MaQaTooT offers a technique to authenticate devices throughout their lifecycle, while sustaining the lightweight nature of MQTT, and also keeping the communication confidential and maintaining its integrity. Furthermore, it allows us to revoke keys reliably. To validate our key-management scheme, we built a prototype client for the Firefly RK3288 ARM Development Board and a key-management server for a GNU/Linux machine. We demonstrate that its performance on the prototype client fits the 4 ms latency limit of Industrial IoT protocols. We also verified our session-key establishment protocol using Proverif to ensure that the protocol never leaks the shared secrets.},
+booktitle = {Proceedings of the 9th International Conference on the Internet of Things},
+articleno = {12},
+numpages = {7},
+keywords = {Security, Macaroons, MQTT, Key Management},
+location = {Bilbao, Spain},
+series = {IoT 2019},
+  pdf={MQTT_Paper.pdf},
+  abbr={IoT}
+}
+
+@inbook{doi:10.1002/9781119593386.ch23,
+author = {Anantharaman, Prashant and Brady, J. Peter and Jenkins, Ira Ray and Kothari, Vijay H. and Millian, Michael C. and Palani, Kartik and Rathore, Kirti V. and Reeves, Jason and Shapiro, Rebecca and Tanveer, Syed H. and Bratus, Sergey and Smith, Sean W.},
+publisher = {John Wiley & Sons, Ltd},
+isbn = {9781119593386},
+title = {Intent as a Secure Design Primitive},
+booktitle = {Modeling and Design of Secure Internet of Things},
+chapter = {23},
+pages = {529-562},
+doi = {10.1002/9781119593386.ch23},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119593386.ch23},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119593386.ch23},
+year = {2020},
+keywords = {Advanced Message Queuing Protocol, ELFbac, Internet of Things, LangSec, system security},
+abstract = {Summary Intent lies at the heart of technology design, development, and use. As such, intent is a secure design primitive. We posit that securing a technology requires enforcing the various actors' intents throughout the technology's lifecycle. This tenet of secure design is particularly relevant for the Internet of Things (IoT) context, where intent violations and intent mismatches all too often manifest in unprecedented security vulnerabilities. In this chapter, we discuss two security paradigms for securing the IoT by preserving designer and developer intents: language-theoretic security (LangSec) and ELF-based access control (ELFbac). We also demonstrate how these two paradigms can be used in tandem to harden the AMQP protocol used for the IoT, and we discuss evaluation techniques.}
+}
